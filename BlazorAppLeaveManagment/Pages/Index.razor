@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+<button @onclick="OpenModelPopup">Click Me</button>
+
+
+@code{
+
+    public void OpenModelPopup()
+    {
+        //can send some data also.
+        //return "<h1>This is Modal Popup Window</h1>";
+    }
+}
